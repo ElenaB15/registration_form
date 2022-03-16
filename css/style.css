@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: linear-gradient(350deg, #f3d9fa, #e5dbff, #9775fa, #91a7ff);
+}
+.container {
+  max-width: 70%;
+  margin: 100px auto;
+}
+.flex-holder {
+  display: flex;
+}
+.img-holder {
+  width: 49%;
+  position: relative;
+}
+.music {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.text-holder {
+  position: absolute;
+  bottom: 200px;
+  left: 60px;
+}
+.text-holder,
+.price {
+  color: #fff;
+}
+.heading-one {
+  font-size: 38px;
+}
+.unlimited {
+  font-size: 24px;
+  font-weight: 700;
+}
+.price {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+.price strong {
+  font-size: 32px;
+}
+.price small {
+  font-size: 20px;
+  font-weight: 700;
+}
+.login-form {
+  width: 40%;
+  padding: 70px 60px 30px;
+  background-color: #fff;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.reg {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #333;
+  margin-bottom: 30px;
+}
+label {
+  display: block;
+  font-size: 16px;
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+label:last-child {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+a {
+  display: block;
+  color: #632be6;
+  font-weight: 700;
+  margin-top: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+input[type="checkbox"] {
+  vertical-align: 180%;
+  margin-right: 5px;
+}
+::placeholder {
+  color: #ddd;
+  font-size: 14px;
+  font-weight: 500;
+}
+.input-holder {
+  margin-bottom: 40px;
+}
+.submit {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #5617e9;
+  padding: 15px 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
