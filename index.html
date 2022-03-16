@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Registration Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex-holder">
+        <div class="img-holder">
+          <img src="img/music.jpg" alt="music" class="music" />
+          <div class="text-holder">
+            <h1 class="heading-one">Bring Your Music Along</h1>
+            <p class="unlimited">try Unlimited</p>
+          </div>
+          <p class="price"><strong>$9.99 </strong><small> /Month</small></p>
+        </div>
+        <!-- <div class="form-holder"> -->
+        <form class="login-form" action="#" method="post">
+          <h2 class="reg">Registration Form</h2>
+          <div class="input-holder">
+            <label for="fullName">Full Name:</label>
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="ex:Lindsey Wilson"
+              required
+            />
+          </div>
+          <div class="input-holder">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="input-holder">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div class="input-holder">
+            <label for="confirmPassword">Confirm password:</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              required
+            />
+          </div>
+          <div class="input-holder">
+            <input
+              type="checkbox"
+              name="agree"
+              id="agree"
+              value="agree"
+              required
+            />
+            <label for="agree"
+              >By singing up, you agree to the
+              <a href="#">Play Term of Service</a></label
+            >
+          </div>
+          <div class="input-holder">
+            <input
+              type="submit"
+              value="Register"
+              name="submit"
+              id="submit"
+              class="submit"
+            />
+          </div>
+        </form>
+        <!-- </div> -->
+      </div>
+    </div>
+  </body>
+</html>
